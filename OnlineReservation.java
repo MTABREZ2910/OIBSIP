@@ -25,7 +25,6 @@ public class OnlineReservation {
 			switch(i) {
 			case 1:
 				Login login=new Login(createuser);
-				//login.login();
 				 boolean loggedIn = false;
                  while (!loggedIn) {
                      loggedIn = login.login();
